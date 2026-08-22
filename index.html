@@ -1,131 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CIS 7000-005: Neural Scene Representation and Neural Rendering, Fall 2026.">
-  <meta property="og:title" content="Neural Scene Representation and Neural Rendering — Fall 2026">
-  <meta property="og:description" content="A bundle-first reading seminar spanning neural rendering, visual geometry, robotics, 4D, and embodied worlds.">
-  <meta property="og:image" content="assets/og.png">
-  <title>Neural Scene Representation and Neural Rendering — Fall 2026</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="data/site.css">
-  <script defer src="data/site-config.js"></script>
-  <script defer src="data/course-slots.js"></script>
-  <script defer src="data/site.js"></script>
+  <title>Neural Scene Representation and Neural Rendering – Fall Semester 2026</title>
+  <link rel="stylesheet" type="text/css" href="./data/gvv.css">
+  <link rel="stylesheet" type="text/css" href="./data/seminar.css">
 </head>
-<body data-page="home">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="masthead">
-    <div class="site-shell masthead-inner">
-      <a class="penn-mark" href="https://www.upenn.edu/" aria-label="University of Pennsylvania">
-        <img src="assets/penn.png" alt="University of Pennsylvania">
-      </a>
-      <div>
-        <p class="course-kicker"><span data-course-code></span> · <span data-course-type></span></p>
-        <h1 data-course-title></h1>
-        <p class="course-meta"><span><strong data-course-term></strong></span><span>Instructor: <strong data-instructor></strong></span><span>TAs: <strong data-tas></strong></span></p>
-      </div>
+<body>
+  <div id="wrap">
+    
+    <div style="text-align: center">
+      <a href="https://www.upenn.edu/"><img src="./data/penn.png" alt="University of Pennsylvania" width="400"></a>
     </div>
-  </header>
-  <nav class="site-nav" aria-label="Course navigation">
-    <div class="site-shell">
-      <a href="index.html" data-nav="home">Organization</a>
-      <a href="topics.html" data-nav="topics">Reading slots</a>
-      <a href="backup.html" data-nav="backup">Backup pool</a>
-      <a href="format.html" data-nav="format">Format</a>
-      <a href="resource.html" data-nav="resources">Resources</a>
-    </div>
-  </nav>
-
-  <main id="main">
-    <div class="site-shell">
-      <div class="draft-note"><strong>Before publishing:</strong><span>Update the TA names, meeting details, and course links in <code>data/site-config.js</code>. The paper list itself is ready.</span></div>
-      <section class="page-intro">
-        <div>
-          <p class="eyebrow">2026 course design</p>
-          <h2>Read method families,<br>not isolated PDFs.</h2>
-          <p>The 2026 syllabus treats each signup as one coherent reading unit. A bundle has one lead paper to read in full and at most two lineage or comparison papers to skim—so foundational work stays visible without crowding out the strongest 2025–26 research.</p>
-          <div class="actions">
-            <a class="button" href="topics.html">Explore all reading slots</a>
-            <a class="button secondary" href="files/CIS7000_2026_Paper_Signup.xlsx">Download the worksheet</a>
-            <a class="button secondary" href="#" data-config-link="signUp">Open the live sign-up sheet</a>
-          </div>
-        </div>
-        <aside class="intro-aside">
-          <strong>Research status cutoff</strong>
-          <span data-research-cutoff></span><br>
-          <span>Accepted and preprint status should be refreshed before class begins.</span>
-        </aside>
-      </section>
-
-      <section class="stat-grid" data-course-stats aria-label="Course statistics"></section>
-
-      <section class="section">
-        <div class="section-heading">
-          <div><p class="eyebrow">Representation lineage</p><h2>From neural fields to actionable worlds</h2></div>
-          <p>The course keeps the historical through-line of the 2025 site, then expands toward foundation geometry, robot mapping, manipulation, world models, and simulation-ready assets.</p>
-        </div>
-        <div class="media-grid">
-          <figure class="media-card">
-            <video playsinline autoplay loop muted preload="metadata"><source src="assets/nerf.mp4" type="video/mp4"></video>
-            <figcaption><strong>NeRF · neural scene fields</strong><small>Classic lineage compressed into one focused reading slot.</small></figcaption>
-          </figure>
-          <figure class="media-card">
-            <video playsinline autoplay loop muted preload="metadata"><source src="assets/more_results.mp4" type="video/mp4"></video>
-            <figcaption><strong>NeuS · implicit neural surfaces</strong><small>A foundation for current surface, inverse-rendering, and reconstruction work.</small></figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <div><p class="eyebrow">How bundles work</p><h2>One slot, one argument</h2></div>
-          <p>The presenter owns the lead paper and uses companions only to make the methodological change legible.</p>
-        </div>
-        <div class="principle-grid">
-          <article class="principle-card"><span class="number">1</span><h3>Lead · full read</h3><p>Understand the method, evidence, failure cases, and assumptions well enough to teach and critique it.</p></article>
-          <article class="principle-card"><span class="number">2</span><h3>Skim · compare</h3><p>Read only the sections needed to explain the lineage, competing representation, or evaluation contrast.</p></article>
-          <article class="principle-card"><span class="number">3</span><h3>Discuss · synthesize</h3><p>End with the real research question: what changed, what improved, and what remains unproven?</p></article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <div><p class="eyebrow">Selected weeks</p><h2>A wider 3DV syllabus</h2></div>
-          <p>Robotics is a full arc rather than a token add-on; Gaussian splatting is concentrated into one focused week.</p>
-        </div>
-        <div class="week-preview-grid" data-week-preview></div>
-      </section>
-
-      <section class="section info-grid">
-        <article class="info-card">
-          <h3>Meeting information</h3>
-          <dl>
-            <dt>Format</dt><dd data-meeting-format></dd>
-            <dt>Days</dt><dd data-meeting-days></dd>
-            <dt>Time</dt><dd data-meeting-time></dd>
-            <dt>Location</dt><dd data-meeting-location></dd>
-          </dl>
-        </article>
-        <article class="info-card">
-          <h3>Course links</h3>
-          <div class="actions">
-            <a class="button secondary" href="#" data-config-link="questionForm">Submit paper questions</a>
-            <a class="button secondary" href="#" data-config-link="slidesFolder">Upload presentation slides</a>
-            <a class="button secondary" href="#" data-config-link="canvas">Canvas</a>
-          </div>
-          <p>Unconfigured links are intentionally disabled until the 2026 course folders and forms exist.</p>
-        </article>
-      </section>
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="site-shell">
-      <div><strong data-course-code></strong><p>2026 revision based on the original <a href="https://neural-representation-2025.github.io/">2025 course site</a>. Paper metadata was curated for teaching use and should be status-checked before the semester.</p></div>
-      <div class="footer-meta"><span data-course-term></span><br>Research cutoff: <span data-research-cutoff></span></div>
-    </div>
-  </footer>
+    <h1 style="text-align: center;">Neural Scene Representation and Neural Rendering</h1>
+    <h2 style="text-align: center;">Seminar – Fall Semester 2026</h2>
+    <h3 style="text-align: center;">Instructor: <a href="https://lingjie0206.github.io/">Lingjie Liu</a></h3>
+    <h3 style="text-align: center;">TAs: Qiao Feng, TBA</h3>
+    <br>
+    <hr>
+    <h2 style="text-align: center;"><b>Organization</b> &nbsp;|&nbsp; <a href="./topics.html">Topics</a> &nbsp;|&nbsp; <a href="./format.html">Format</a> &nbsp;|&nbsp; <a href="./resource.html">Resources</a></h2>
+    <hr>
+    
+    
+    <table style="margin: 1em auto;">
+      <tr>
+        <td style="text-align:center; vertical-align:middle;"><video width="100%" playsinline autoplay loop muted><source src="data/nerf.mp4" type="video/mp4"></video></td>
+        <td style="text-align:center; vertical-align:middle;"><video width="80%" playsinline autoplay loop muted><source src="data/more_results.mp4" type="video/mp4"></video></td>
+      </tr>
+      <tr>
+        <td style="text-align:center;"><b>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</b><br>ECCV, 2020</td>
+        <td style="text-align:center;"><b>NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction</b><br>NeurIPS, 2021</td>
+      </tr>
+    </table>
+    <br>
+    
+    
+    <hr><h2>Organization</h2><hr>
+    <p>This seminar covers neural scene representations, neural rendering, modern 3D vision, and their connections to robotics and embodied intelligence.</p>
+    <p><b>Paper sign-up sheet:</b> link to be added.</p>
+    <p><b>Paper-question form:</b> link to be added.</p>
+    <p><b>Presentation-slide folder:</b> link to be added.</p>
+    <h3>Schedule:</h3>
+    <table>
+      <tr><td class="head" style="width:160px;">Course:</td><td>CIS 7000-005</td></tr>
+      <tr><td class="head">Format:</td><td>In person</td></tr>
+      <tr><td class="head">Time:</td><td>TBD</td></tr>
+      <tr><td class="head">Location:</td><td>TBD</td></tr>
+    </table>
+    <p><i>The schedule and links above are placeholders and should be updated before publication.</i></p>
+    
+    <div id="footer">The website template refers directly to the <a href="https://vcai.mpi-inf.mpg.de/teaching/vcai_seminar_2023/index.html">MPII summer seminar</a>.</div>
+  </div>
 </body>
 </html>
