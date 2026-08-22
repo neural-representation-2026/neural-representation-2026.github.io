@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Draft presentation and discussion format for Neural Representation 2026.">
+  <meta property="og:title" content="Seminar Format — Neural Representation 2026">
+  <meta property="og:description" content="How to prepare, present, and discuss a standalone paper or method-family bundle.">
+  <meta property="og:image" content="assets/og.png">
+  <title>Seminar Format — Neural Representation 2026</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="data/site.css">
+  <script defer src="data/site-config.js"></script>
+  <script defer src="data/course-slots.js"></script>
+  <script defer src="data/site.js"></script>
+</head>
+<body data-page="format">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead"><div class="site-shell masthead-inner"><a class="penn-mark" href="https://www.upenn.edu/" aria-label="University of Pennsylvania"><img src="assets/penn.png" alt="University of Pennsylvania"></a><div><p class="course-kicker"><span data-course-code></span> · <span data-course-type></span></p><h1 data-course-title></h1><p class="course-meta"><span><strong data-course-term></strong></span><span>Instructor: <strong data-instructor></strong></span><span>TAs: <strong data-tas></strong></span></p></div></div></header>
+  <nav class="site-nav" aria-label="Course navigation"><div class="site-shell"><a href="index.html" data-nav="home">Organization</a><a href="topics.html" data-nav="topics">Reading slots</a><a href="backup.html" data-nav="backup">Backup pool</a><a href="format.html" data-nav="format">Format</a><a href="resource.html" data-nav="resources">Resources</a></div></nav>
+
+  <main id="main"><div class="site-shell">
+    <div class="draft-note"><strong>Draft policy:</strong><span>This page adapts the 2025 seminar format to the bundle-first syllabus. Confirm presentation count, grading weights, and deadlines with the instructor before publishing.</span></div>
+    <section class="page-intro"><div><p class="eyebrow">Preparation · presentation · discussion</p><h2>Seminar format</h2><p>The goal is not to summarize every paragraph. A strong presentation reconstructs the paper’s argument, identifies its decisive assumptions, tests its evidence, and connects it to the method family.</p></div><aside class="intro-aside"><strong>The bundle rule</strong>One lead paper is read deeply. At most two companions are skimmed for a specific comparison. A bundle is still one signup and one presentation slot.</aside></section>
+
+    <article class="prose">
+      <div class="callout"><h3>Suggested class rhythm</h3><ul><li><strong>Topic framing:</strong> 5–10 minutes by the instructor or TA.</li><li><strong>Student presentations:</strong> approximately 25 minutes per assigned reading slot.</li><li><strong>Discussion:</strong> compare assumptions, evidence, failures, and future work across the week.</li></ul></div>
+
+      <h2>Before class</h2>
+      <ul>
+        <li>Read the lead paper for each assigned slot. For bundles, skim only the listed comparison papers.</li>
+        <li>Prepare at least one substantive question per reading slot; avoid questions answered directly in the abstract.</li>
+        <li>For a Frontier paper, verify the current version, review status, code/data release, baselines, compute, and known failure cases.</li>
+        <li>Presenters should upload slides by the deadline set by the teaching team.</li>
+      </ul>
+
+      <h2>Presentation structure</h2>
+      <ol>
+        <li><strong>Problem and stakes:</strong> What bottleneck or capability is the paper actually about?</li>
+        <li><strong>Necessary background:</strong> Introduce only the concepts needed to follow the method.</li>
+        <li><strong>Method:</strong> Make the representation, objective, supervision, and inference procedure explicit.</li>
+        <li><strong>Evidence:</strong> Separate quantitative claims, qualitative demonstrations, ablations, and system-level evidence.</li>
+        <li><strong>Bundle comparison:</strong> State exactly what changed from the companion paper and why it matters.</li>
+        <li><strong>Limitations:</strong> Include failure modes, missing comparisons, compute/data constraints, and external-validity risks.</li>
+        <li><strong>Discussion hook:</strong> End with the question listed for the slot—or improve it.</li>
+      </ol>
+
+      <h2>Reading different slot types</h2>
+      <h3>Classic bundle</h3><p>Use the lead classic to understand the field-defining representation. Skim companions for the transition in encoding, rendering, geometry, or systems design. Do not give three mini-book reports.</p>
+      <h3>Mixed-lineage bundle</h3><p>The recent paper is the center. The historical paper exists to reveal what moved into a pretrained prior, what became amortized, and what classical optimization still contributes.</p>
+      <h3>Recent bundle</h3><p>Compare two closely related 2025/26 methods around outputs, assumptions, evaluation protocol, scale, and failure cases—not just benchmark deltas.</p>
+      <h3>Frontier paper</h3><p>Treat the presentation as a conference review. Clearly distinguish reported evidence from your inference and from claims that remain unverified.</p>
+
+      <h2>Discussion and feedback</h2>
+      <ul><li>Use submitted questions to probe the paper’s assumptions rather than to repeat presentation content.</li><li>Connect papers within the week and to earlier weeks when representations or evaluation choices recur.</li><li>Ask whether improvements survive different data, sensors, compute budgets, camera models, or downstream robot tasks.</li><li>Conclude with one strength, one limitation, and one concrete next experiment.</li></ul>
+
+      <h2>Provisional evaluation dimensions</h2>
+      <ul><li><strong>Communication:</strong> timing, clarity, visual design, and audience engagement.</li><li><strong>Technical content:</strong> method correctness, evidence, structure, and bundle synthesis.</li><li><strong>Critical analysis:</strong> limitations, answers to questions, and quality of proposed follow-up work.</li><li><strong>Participation:</strong> submitted questions and constructive discussion across the semester.</li></ul>
+    </article>
+  </div></main>
+  <footer class="site-footer"><div class="site-shell"><div><strong data-course-code></strong><p>Policy details marked as draft should be confirmed before this site is announced to students.</p></div><div class="footer-meta"><a href="#" data-config-link="questionForm">Question form</a><br><a href="#" data-config-link="slidesFolder">Slides folder</a></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,921 @@
+{
+  "stats": {
+    "slots": 42,
+    "bundles": 14,
+    "classicCentered": 6,
+    "contains2025or2026": 36,
+    "robotics": 15,
+    "gaussianSplatting": 3,
+    "frontier": 2,
+    "candidatePapers": 124,
+    "backupChoices": 82
+  },
+  "slots": [
+    {
+      "slotId": "W01-A",
+      "week": 1,
+      "topic": "Neural Scene Representations & Learned Rendering",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Core 3DV",
+      "focus": "Neural fields: MLP → hash grid → explicit grid",
+      "readingLoad": "1 lead full + 2 skim/compare",
+      "discussionHook": "Which ingredient matters most: the continuous field, its encoding, or differentiable rendering?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis",
+          "venue": "ECCV 2020",
+          "url": "https://www.matthewtancik.com/nerf"
+        },
+        {
+          "role": "Skim",
+          "title": "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+          "venue": "ACM TOG / SIGGRAPH 2022",
+          "url": "https://nvlabs.github.io/instant-ngp/"
+        },
+        {
+          "role": "Skim",
+          "title": "Plenoxels: Radiance Fields without Neural Networks",
+          "venue": "CVPR 2022 Oral",
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W01-B",
+      "week": 1,
+      "topic": "Neural Scene Representations & Learned Rendering",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Minimal-inductive-bias view synthesis",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Can scale and attention replace hand-built 3D inductive bias?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias",
+          "venue": "ICLR 2025 Oral",
+          "url": "https://haian-jin.github.io/projects/LVSM/"
+        }
+      ]
+    },
+    {
+      "slotId": "W01-C",
+      "week": 1,
+      "topic": "Neural Scene Representations & Learned Rendering",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Learned rendering with global illumination",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Can a learned renderer internalize visibility and multi-bounce light transport?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with Global Illumination",
+          "venue": "ACM TOG / SIGGRAPH 2025",
+          "url": "https://microsoft.github.io/renderformer/"
+        }
+      ]
+    },
+    {
+      "slotId": "W02-A",
+      "week": 2,
+      "topic": "Implicit, Explicit & Structured Geometry",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Core 3DV",
+      "focus": "SDFs and principled surface rendering",
+      "readingLoad": "1 lead full + 2 skim/compare",
+      "discussionHook": "How should a continuous SDF become opacity without biasing the recovered surface?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction",
+          "venue": "NeurIPS 2021",
+          "url": "https://lingjie0206.github.io/papers/NeuS/"
+        },
+        {
+          "role": "Skim",
+          "title": "DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation",
+          "venue": "CVPR 2019",
+          "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Park_DeepSDF_Learning_Continuous_Signed_Distance_Functions_for_Shape_Representation_CVPR_2019_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "Volume Rendering of Neural Implicit Surfaces",
+          "venue": "NeurIPS 2021 (VolSDF)",
+          "url": "https://proceedings.neurips.cc/paper/2021/hash/25e2a30f44898b9f3e978b1786dcd85c-Abstract.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W02-B",
+      "week": 2,
+      "topic": "Implicit, Explicit & Structured Geometry",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Explicit mesh optimization with topology adaptation",
+      "readingLoad": "1 full paper",
+      "discussionHook": "When must continuous differentiable optimization give way to discrete split/merge edits?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "ExMesh: EXplicit Mesh Reconstruction with Topology Adaptation",
+          "venue": "CVPR 2026",
+          "url": "https://fan-treasure.github.io/ExMesh_page.github.io/"
+        }
+      ]
+    },
+    {
+      "slotId": "W02-C",
+      "week": 2,
+      "topic": "Implicit, Explicit & Structured Geometry",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Joint spatial and semantic scene decomposition",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Can one structured cell decomposition regularize both geometry and semantics?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Semantic Foam: Unifying Spatial and Semantic Scene Decomposition",
+          "venue": "CVPR 2026 Highlight",
+          "url": "https://semanticfoam.github.io/"
+        }
+      ]
+    },
+    {
+      "slotId": "W03-A",
+      "week": 3,
+      "topic": "Visual Geometry Foundation Models",
+      "format": "Mixed bundle",
+      "era": "Mixed lineage",
+      "track": "Core 3DV",
+      "focus": "Point maps → general visual geometry transformer",
+      "readingLoad": "1 recent lead full + 1 background skim",
+      "discussionHook": "What changed when pairwise point maps became a many-view generalist geometry model?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "VGGT: Visual Geometry Grounded Transformer",
+          "venue": "CVPR 2025 Best Paper",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "DUSt3R: Geometric 3D Vision Made Easy",
+          "venue": "CVPR 2024",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W03-B",
+      "week": 3,
+      "topic": "Visual Geometry Foundation Models",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Simple targets at foundation-model scale",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Are data, supervision targets, or architecture responsible for cross-view 3D generalization?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Depth Anything 3: Recovering the Visual Space from Any Views",
+          "venue": "ICLR 2026 Oral",
+          "url": "https://arxiv.org/abs/2511.10647"
+        }
+      ]
+    },
+    {
+      "slotId": "W03-C",
+      "week": 3,
+      "topic": "Visual Geometry Foundation Models",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Universal conditional metric reconstruction",
+      "readingLoad": "1 full paper",
+      "discussionHook": "When can one conditional model replace specialist depth, SfM, and MVS pipelines?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "MapAnything: Universal Feed-Forward Metric 3D Reconstruction",
+          "venue": "3DV 2026",
+          "url": "https://openreview.net/forum?id=tcmc0jpDgU"
+        }
+      ]
+    },
+    {
+      "slotId": "W04-A",
+      "week": 4,
+      "topic": "Stateful, Streaming & Hybrid Reconstruction",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Scene memory in test-time-trained weights",
+      "readingLoad": "1 full paper",
+      "discussionHook": "What does feed-forward mean if the model weights become scene memory at inference?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training",
+          "venue": "CVPR 2026",
+          "url": "https://arxiv.org/abs/2603.04385"
+        }
+      ]
+    },
+    {
+      "slotId": "W04-B",
+      "week": 4,
+      "topic": "Stateful, Streaming & Hybrid Reconstruction",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Long-sequence autoregressive visual geometry",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How should a streaming model handle gauge, metric scale, drift, and cache consistency?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "LongStream: Long-Sequence Streaming Autoregressive Visual Geometry",
+          "venue": "CVPR 2026",
+          "url": "https://arxiv.org/abs/2602.13172"
+        }
+      ]
+    },
+    {
+      "slotId": "W04-C",
+      "week": 4,
+      "topic": "Stateful, Streaming & Hybrid Reconstruction",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Learned priors inside global SfM",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Which parts of a scalable reconstruction pipeline should remain classical optimization?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Global Structure-from-Motion Meets Feedforward Reconstruction",
+          "venue": "CVPR 2026",
+          "url": "https://arxiv.org/abs/2605.26103"
+        }
+      ]
+    },
+    {
+      "slotId": "W05-A",
+      "week": 5,
+      "topic": "Neural SLAM & Robot Mapping",
+      "format": "Mixed bundle",
+      "era": "Mixed lineage",
+      "track": "Robotics",
+      "focus": "Neural-field SLAM → foundation-prior SLAM",
+      "readingLoad": "1 recent lead full + 2 history skim",
+      "discussionHook": "What moved into the pretrained 3D prior, and what still requires tracking, optimization, and loop closure?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors",
+          "venue": "CVPR 2025",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Murai_MASt3R-SLAM_Real-Time_Dense_SLAM_with_3D_Reconstruction_Priors_CVPR_2025_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "iMAP: Implicit Mapping and Positioning in Real-Time",
+          "venue": "ICCV 2021",
+          "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Sucar_iMAP_Implicit_Mapping_and_Positioning_in_Real-Time_ICCV_2021_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+          "venue": "CVPR 2022",
+          "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_NICE-SLAM_Neural_Implicit_Scalable_Encoding_for_SLAM_CVPR_2022_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W05-B",
+      "week": 5,
+      "topic": "Neural SLAM & Robot Mapping",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Globally consistent online foundation-model reconstruction",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Why can learned submaps require spatially varying, non-rigid consistency correction?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_TALO_Pushing_3D_Vision_Foundation_Models_Towards_Globally_Consistent_Online_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W05-C",
+      "week": 5,
+      "topic": "Neural SLAM & Robot Mapping",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Dynamic SLAM with a general 3D prior",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Where should a learned 3D prior enter a dynamic SLAM system, and what should bundle adjustment retain?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Dynamic Visual SLAM using a General 3D Prior",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_Dynamic_Visual_SLAM_using_a_General_3D_Prior_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W06-A",
+      "week": 6,
+      "topic": "Gaussian Splatting — One Focused Week",
+      "format": "Mixed bundle",
+      "era": "Mixed lineage",
+      "track": "GS-centered",
+      "focus": "Original 3DGS → principled artifact correction",
+      "readingLoad": "1 recent lead full + original-method skim",
+      "discussionHook": "Which projection, sampling, and culling approximations cause aliasing and pop-in?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering",
+          "venue": "ICCV 2025 Highlight",
+          "url": "https://derthomy.github.io/AAA-Gaussians/"
+        },
+        {
+          "role": "Skim",
+          "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
+          "venue": "ACM TOG / SIGGRAPH 2023",
+          "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/"
+        }
+      ]
+    },
+    {
+      "slotId": "W06-B",
+      "week": 6,
+      "topic": "Gaussian Splatting — One Focused Week",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "GS-centered",
+      "focus": "Stochastic opaque-point rendering",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How do bias, variance, sorting, and GPU load balance change under Monte Carlo splatting?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Gaussian Point Splatting",
+          "venue": "ACM TOG / SIGGRAPH 2026",
+          "url": "https://jorisar.nl/gaussian_point_splatting/"
+        }
+      ]
+    },
+    {
+      "slotId": "W06-C",
+      "week": 6,
+      "topic": "Gaussian Splatting — One Focused Week",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "GS-centered",
+      "focus": "Out-of-core LoD for ultra-large scenes",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How should representation and data structures co-design around VRAM and bandwidth limits?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "A LoD of Gaussians: Out-of-Core Training and Rendering for Seamless Ultra-Large Scene Reconstruction",
+          "venue": "SIGGRAPH 2026",
+          "url": "https://felixwindisch.github.io/ALoDOfGaussians/"
+        }
+      ]
+    },
+    {
+      "slotId": "W07-A",
+      "week": 7,
+      "topic": "Inverse Rendering & Relighting",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Core 3DV",
+      "focus": "Factorized reflectance versus structured view dependence",
+      "readingLoad": "1 lead full + 1 skim/compare",
+      "discussionHook": "Which appearance effects should be factorized physically, and which can remain structured radiance?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "NeRFactor: Neural Factorization of Shape and Reflectance Under an Unknown Illumination",
+          "venue": "ACM TOG / SIGGRAPH Asia 2021",
+          "url": "https://xiuming.info/projects/nerfactor/"
+        },
+        {
+          "role": "Skim",
+          "title": "Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields",
+          "venue": "CVPR 2022 Oral",
+          "url": "https://dorverbin.github.io/refnerf/"
+        }
+      ]
+    },
+    {
+      "slotId": "W07-B",
+      "week": 7,
+      "topic": "Inverse Rendering & Relighting",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Inverse rendering by propagating light",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How does global illumination change ambiguity, supervision, and evaluation?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Neural Inverse Rendering from Propagating Light",
+          "venue": "CVPR 2025 Best Student Paper",
+          "url": "https://anaghmalik.com/InvProp/"
+        }
+      ]
+    },
+    {
+      "slotId": "W07-C",
+      "week": 7,
+      "topic": "Inverse Rendering & Relighting",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Feed-forward multiview inverse rendering",
+      "readingLoad": "1 full paper",
+      "discussionHook": "What is lost when inverse rendering is amortized instead of optimized per scene?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "MVInverse: Feed-forward Multiview Inverse Rendering in Seconds",
+          "venue": "CVPR 2026",
+          "url": "https://maddog241.github.io/mvinverse-page/"
+        }
+      ]
+    },
+    {
+      "slotId": "W08-A",
+      "week": 8,
+      "topic": "Native & Generalist 3D Generation",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Native compact structured 3D latents",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How does latent representation control topology coverage, compression, controllability, and scale?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Native and Compact Structured Latents for 3D Generation",
+          "venue": "CVPR 2026 Best Student Paper",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W08-B",
+      "week": 8,
+      "topic": "Native & Generalist 3D Generation",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Open-world image-to-3D scaling",
+      "readingLoad": "1 full paper",
+      "discussionHook": "What transfers from 2D foundation-model scaling to open-world 3D—and what does not?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "SAM 3D: 3Dfy Anything in Images",
+          "venue": "CVPR 2026 Honorable Mention",
+          "url": "https://ai.meta.com/research/sam3d/"
+        }
+      ]
+    },
+    {
+      "slotId": "W08-C",
+      "week": 8,
+      "topic": "Native & Generalist 3D Generation",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Generation meets feed-forward reconstruction",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Does generation improve geometry, or merely hide reconstruction errors with plausible appearance?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Gen3R_3D_Scene_Generation_Meets_Feed-Forward_Reconstruction_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W09-A",
+      "week": 9,
+      "topic": "Dynamic & 4D Representations",
+      "format": "Mixed bundle",
+      "era": "Mixed lineage",
+      "track": "Core 3DV",
+      "focus": "Dynamic neural fields → feed-forward 4D reconstruction",
+      "readingLoad": "1 recent lead full + 2 history skim",
+      "discussionHook": "What state best separates geometry, motion, identity, topology, and metric scale?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+          "venue": "CVPR 2026 Best Paper",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields",
+          "venue": "ACM TOG / SIGGRAPH Asia 2021",
+          "url": "https://hypernerf.github.io/"
+        },
+        {
+          "role": "Skim",
+          "title": "Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes",
+          "venue": "CVPR 2021",
+          "url": "https://www.cs.cornell.edu/~zl548/NSFF/"
+        }
+      ]
+    },
+    {
+      "slotId": "W09-B",
+      "week": 9,
+      "topic": "Dynamic & 4D Representations",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Dynamic point maps",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How do dynamic point maps compare with continuous scene-flow or deformation fields?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "V-DPM: 4D Video Reconstruction with Dynamic Point Maps",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Sucar_V-DPM_4D_Video_Reconstruction_with_Dynamic_Point_Maps_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W09-C",
+      "week": 9,
+      "topic": "Dynamic & 4D Representations",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Core 3DV",
+      "focus": "Unified metric 4D reconstruction",
+      "readingLoad": "1 full paper",
+      "discussionHook": "How far can one metric formulation generalize across dynamic-scene conditions?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Any4D: Unified Feed-Forward Metric 4D Reconstruction",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Karhade_Any4D_Unified_Feed-Forward_Metric_4D_Reconstruction_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W10-A",
+      "week": 10,
+      "topic": "Actionable Semantic Maps & Spatial Memory",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Robotics",
+      "focus": "Dense open-vocabulary maps → navigable hierarchy",
+      "readingLoad": "1 lead full + 1 skim/compare",
+      "discussionHook": "When should a dense language-aligned map become a floor–room–object graph?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Hierarchical Open-Vocabulary 3D Scene Graphs for Language-Grounded Robot Navigation",
+          "venue": "RSS 2024",
+          "url": "https://www.roboticsproceedings.org/rss20/p077.html"
+        },
+        {
+          "role": "Skim",
+          "title": "ConceptFusion: Open-set Multimodal 3D Mapping",
+          "venue": "RSS 2023",
+          "url": "https://www.roboticsproceedings.org/rss19/p066.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W10-B",
+      "week": 10,
+      "topic": "Actionable Semantic Maps & Spatial Memory",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Embodied 2D/3D spatial reasoning",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Which spatial relations require explicit 3D supervision rather than stronger 2D VLM pretraining?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics",
+          "venue": "CVPR 2025",
+          "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Song_RoboSpatial_Teaching_Spatial_Understanding_to_2D_and_3D_Vision-Language_Models_CVPR_2025_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W10-C",
+      "week": 10,
+      "topic": "Actionable Semantic Maps & Spatial Memory",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Relative 4D scene-graph memory",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Can relative object transitions replace a globally aligned reconstruction for long-term memory?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "R4DSG: Relative 4D Scene Graph Memory for Object-Centric Question Answering in Long Egocentric Video",
+          "venue": "ACM Multimedia 2026 · accepted",
+          "url": "https://arxiv.org/abs/2608.11017"
+        }
+      ]
+    },
+    {
+      "slotId": "W11-A",
+      "week": 11,
+      "topic": "Active Perception & Long-Horizon Mapping",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Robotics",
+      "focus": "Uncertainty and coverage for next-best view",
+      "readingLoad": "1 lead full + 1 skim/compare",
+      "discussionHook": "Should active-view state encode rendering uncertainty, missing surface coverage, or task information gain?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "GenNBV: Generalizable Next-Best-View Policy for Active 3D Reconstruction",
+          "venue": "CVPR 2024",
+          "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GenNBV_Generalizable_Next-Best-View_Policy_for_Active_3D_Reconstruction_CVPR_2024_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "ActiveNeRF: Learning Where to See with Uncertainty Estimation",
+          "venue": "ECCV 2022",
+          "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930225.pdf"
+        }
+      ]
+    },
+    {
+      "slotId": "W11-B",
+      "week": 11,
+      "topic": "Active Perception & Long-Horizon Mapping",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Feed-forward geometry plus VLM-guided exploration",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Do semantic cues produce genuinely better exploration or only a different camera distribution?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "AREA3D: Active Reconstruction Agent with Unified Feed-Forward 3D Perception and Vision-Language Guidance",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xu_AREA3D_Active_Reconstruction_Agent_with_Unified_Feed-Forward_3D_Perception_and_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W11-C",
+      "week": 11,
+      "topic": "Active Perception & Long-Horizon Mapping",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Imagined scene state for long-term active mapping",
+      "readingLoad": "1 full paper",
+      "discussionHook": "What representation is sufficient for fast coverage planning even if it is not the final reconstruction?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping",
+          "venue": "CVPR 2026 Oral",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_MAGICIAN_Efficient_Long-Term_Planning_with_Imagined_Gaussians_for_Active_Mapping_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W12-A",
+      "week": 12,
+      "topic": "3D Representations for Robotic Manipulation",
+      "format": "Classic bundle",
+      "era": "Classic-centered",
+      "track": "Robotics",
+      "focus": "Continuous 3D feature fields for manipulation",
+      "readingLoad": "1 lead full + 1 skim/compare",
+      "discussionHook": "Should a policy query a 3D field adaptively or distill a persistent task-agnostic field first?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Act3D: 3D Feature Field Transformers for Multi-Task Robotic Manipulation",
+          "venue": "CoRL 2023",
+          "url": "https://proceedings.mlr.press/v229/gervet23a.html"
+        },
+        {
+          "role": "Skim",
+          "title": "Distilled Feature Fields Enable Few-Shot Language-Guided Manipulation",
+          "venue": "CoRL 2023 (F3RM)",
+          "url": "https://proceedings.mlr.press/v229/shen23a.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W12-B",
+      "week": 12,
+      "topic": "3D Representations for Robotic Manipulation",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Manipulation-ready feed-forward reconstruction",
+      "readingLoad": "1 full paper",
+      "discussionHook": "Which reconstruction properties actually predict manipulation success?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction",
+          "venue": "RSS 2026 · accepted",
+          "url": "https://roboticsconference.org/program/papers/56/"
+        }
+      ]
+    },
+    {
+      "slotId": "W12-C",
+      "week": 12,
+      "topic": "3D Representations for Robotic Manipulation",
+      "format": "Recent bundle",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "3D-aware pretraining versus future-geometry prediction",
+      "readingLoad": "1 lead full + 1 compare",
+      "discussionHook": "Is 3D consistency best learned through multi-view pretraining or explicit future-geometry prediction?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "DiffuView: Multi-View Diffusion Pretraining for 3D Aware Robotic Manipulation",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_DiffuView_Multi-View_Diffusion_Pretraining_for_3D_Aware_Robotic_Manipulation_CVPR_2026_paper.pdf"
+        },
+        {
+          "role": "Skim",
+          "title": "Action-Geometry Prediction with 3D Geometric Prior for Bimanual Manipulation",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_Action-Geometry_Prediction_with_3D_Geometric_Prior_for_Bimanual_Manipulation_CVPR_2026_paper.pdf"
+        }
+      ]
+    },
+    {
+      "slotId": "W13-A",
+      "week": 13,
+      "topic": "3D-Consistent World Models for Interaction",
+      "format": "Frontier",
+      "era": "Frontier (2026)",
+      "track": "Robotics",
+      "focus": "Point-flow 3D world model",
+      "readingLoad": "1 full + reviewer checklist",
+      "discussionHook": "Does representing both action and state change as point flow provide a useful MPC interface?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation",
+          "venue": "arXiv 2026 · unreviewed",
+          "url": "https://arxiv.org/abs/2601.03782"
+        }
+      ]
+    },
+    {
+      "slotId": "W13-B",
+      "week": 13,
+      "topic": "3D-Consistent World Models for Interaction",
+      "format": "Frontier",
+      "era": "Frontier (2026)",
+      "track": "Robotics",
+      "focus": "Cross-view 3D-consistent world foundation model",
+      "readingLoad": "1 full + reviewer checklist",
+      "discussionHook": "Does multi-view geometric consistency translate into better action prediction and control?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation",
+          "venue": "arXiv 2026 · unreviewed",
+          "url": "https://arxiv.org/abs/2606.18375"
+        }
+      ]
+    },
+    {
+      "slotId": "W13-C",
+      "week": 13,
+      "topic": "3D-Consistent World Models for Interaction",
+      "format": "Single",
+      "era": "Recent (2025–26)",
+      "track": "Robotics",
+      "focus": "Scene-conditioned dexterous world model",
+      "readingLoad": "1 full paper",
+      "discussionHook": "What is gained and lost when the digital twin remains a video model instead of explicit 3D state?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Dexterous World Models",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Dexterous_World_Models_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W14-A",
+      "week": 14,
+      "topic": "Simulation-Ready Assets & Embodied Worlds",
+      "format": "Recent bundle",
+      "era": "Recent (2025–26)",
+      "track": "Embodied",
+      "focus": "Simulation-ready object assets",
+      "readingLoad": "1 lead full + 1 compare",
+      "discussionHook": "Which output contract makes an asset simulation-ready: parts, joints, scale, material, mass, friction, or all of them?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge",
+          "venue": "CVPR 2026 Oral",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/He_SPARK_Sim-ready_Part-level_Articulated_Reconstruction_with_VLM_Knowledge_CVPR_2026_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Cao_PhysX-Anything_Simulation-Ready_Physical_3D_Assets_from_Single_Image_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W14-B",
+      "week": 14,
+      "topic": "Simulation-Ready Assets & Embodied Worlds",
+      "format": "Recent bundle",
+      "era": "Recent (2025–26)",
+      "track": "Embodied",
+      "focus": "Physical 3D/4D simulation",
+      "readingLoad": "1 lead full + 1 compare",
+      "discussionHook": "Should learned simulation be judged by visual realism, explicit state, counterfactuals, or control utility?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "Perceptual 3D Simulation With Physical World Modeling",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Perceptual_3D_Simulation_With_Physical_World_Modeling_CVPR_2026_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "PerpetualWonder: Long-Horizon Action-Conditioned 4D Scene Generation",
+          "venue": "CVPR 2026 Highlight",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhan_PerpetualWonder_Long-horizon_Action-conditioned_4D_Scene_Generation_CVPR_2026_paper.html"
+        }
+      ]
+    },
+    {
+      "slotId": "W14-C",
+      "week": 14,
+      "topic": "Simulation-Ready Assets & Embodied Worlds",
+      "format": "Recent bundle",
+      "era": "Recent (2025–26)",
+      "track": "Embodied",
+      "focus": "Agentic and traversable world generation",
+      "readingLoad": "1 lead full + 1 compare",
+      "discussionHook": "Is an embodied world best built by iterative critic-guided repair or a modular layout-to-assets pipeline?",
+      "papers": [
+        {
+          "role": "Lead",
+          "title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html"
+        },
+        {
+          "role": "Skim",
+          "title": "WorldGen: From Text to Traversable and Interactive 3D Worlds",
+          "venue": "CVPR 2026",
+          "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wang_WorldGen_From_Text_to_Traversable_and_Interactive_3D_Worlds_CVPR_2026_paper.html"
+        }
+      ]
+    }
+  ]
+}
