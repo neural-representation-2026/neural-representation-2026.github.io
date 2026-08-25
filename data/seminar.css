@@ -87,6 +87,18 @@ table.topics .person .label {
     font-style: italic;
 }
 
+table.topics .weekdates {
+    font-size: 90%;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 0.6em;
+}
+
+table.topics .slot {
+    margin-top: 0.9em;
+    margin-bottom: 0.15em;
+}
+
 table.topics .container {
     border: 0.05em solid #420093;
     padding: 0.3em;

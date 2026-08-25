@@ -1,6 +1,7 @@
 window.COURSE_CONFIG = {
-  courseCode: "CIS 7000-005",
-  courseTitle: "Neural Scene Representation and Neural Rendering",
+  courseCode: "CIS 7000-002",
+  crn: "71751",
+  courseTitle: "Introduction to Neural Scene Representation and Neural Rendering",
   term: "Fall 2026",
   courseType: "Seminar",
   instructor: {
@@ -9,16 +10,19 @@ window.COURSE_CONFIG = {
     email: "lingjie.liu@seas.upenn.edu"
   },
   tas: [
-    { name: "TA names — update before publishing", url: "", email: "" }
+    { name: "Qiao Feng", url: "", email: "" },
+    { name: "Shufan Sun", url: "", email: "" },
+    { name: "Tuen Yue Tsui", url: "", email: "" }
   ],
   meeting: {
     format: "In person",
-    days: "TBD",
-    time: "TBD",
-    location: "TBD"
+    days: "Tuesday & Thursday",
+    time: "1:45–3:14 pm",
+    location: "TOWN 327",
+    dates: "August 25 – December 7, 2026"
   },
   links: {
-    signUp: "",
+    signUp: "https://docs.google.com/spreadsheets/d/1qDT8KQOgKzVdRVaSnWr1UsH5S1WGbp75lvX92QaM124/edit",
     questionForm: "",
     slidesFolder: "",
     canvas: ""
