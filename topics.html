@@ -23,42 +23,41 @@
     <hr>
     
     
-    <table style="margin: 1em auto; width: 100%; table-layout: fixed;">
+    <table style="margin: 1em auto;">
       <tr>
-        <td style="text-align:center; vertical-align:middle;"><video style="width:100%; height:300px; object-fit:contain;" playsinline autoplay loop muted><source src="data/alodgaussians.mp4" type="video/mp4"></video></td>
-        <td style="text-align:center; vertical-align:middle;"><video style="width:100%; height:300px; object-fit:contain;" playsinline autoplay loop muted><source src="data/cosmospolicy.mp4" type="video/mp4"></video></td>
+        <td style="text-align:center; vertical-align:middle;"><video width="100%" playsinline autoplay loop muted><source src="data/nerf.mp4" type="video/mp4"></video></td>
+        <td style="text-align:center; vertical-align:middle;"><video width="80%" playsinline autoplay loop muted><source src="data/more_results.mp4" type="video/mp4"></video></td>
       </tr>
       <tr>
-        <td style="text-align:center;"><b><a href="https://felixwindisch.github.io/ALoDOfGaussians/">A LoD of Gaussians: Out-of-Core Training and Rendering for Ultra-Large Scenes</a></b><br>SIGGRAPH, 2026</td>
-        <td style="text-align:center;"><b><a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/">Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</a></b><br>ICLR, 2026</td>
+        <td style="text-align:center;"><b>NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis</b><br>ECCV, 2020</td>
+        <td style="text-align:center;"><b>NeuS: Learning Neural Implicit Surfaces by Volume Rendering for Multi-view Reconstruction</b><br>NeurIPS, 2021</td>
       </tr>
     </table>
     <br>
     
     
     <hr><h2><a id="topics">Topics</a></h2><hr>
-    <p>The list below is the preliminary Fall 2026 reading list, taken from the sign-up sheet. Each week gives its topic and its two meeting dates; under it, every slot lists a reading focus and a purple box holding that focus&rsquo;s papers. Slot <b>A</b> meets on Tuesday and <b>B</b> on Thursday, so a letter may appear more than once in a week.</p>
-    <p><b>41 presentations &middot; 13 weeks &middot; 63 papers.</b> Reading begins in Week 2 (Sep 1); Week 1 has no assigned reading. Week 12 follows the fall break, and Week 13 has no Thursday session (Thanksgiving).</p>
+    <p>The list below is the preliminary Fall 2026 reading list, taken from the sign-up sheet. Each entry is one presentation: the meeting date, the reading focus, and a purple box holding that focus&rsquo;s papers. The seminar meets Tuesdays and Thursdays, and a date may carry more than one presentation.</p>
+    <p><b>42 presentations &middot; 13 weeks &middot; 63 papers.</b> Reading begins in Week 2 (Sep 1); Week 1 has no assigned reading. Week 12 follows the fall break, and Week 13 has no Thursday session (Thanksgiving).</p>
     <p>Claim a slot on the <a href="https://docs.google.com/spreadsheets/d/1qDT8KQOgKzVdRVaSnWr1UsH5S1WGbp75lvX92QaM124/edit"><b>paper sign-up sheet</b></a>.</p>
     <table class="topics" border="1">
       <tr><th>2026 Reading Topics</th><th width="140">Presenter</th></tr>
       <tr>
         <td>
           <div class="topic">Week 2 &middot; Neural Scene Representations &amp; Learned Rendering</div>
-          <div class="weekdates">A: Tue Sep 1 &nbsp;&middot;&nbsp; B: Thu Sep 3</div>
-          <div class="slot"><strong>A:</strong> Neural fields: MLP → hash grid → explicit grid</div>
+          <div class="slot"><strong>Sep 1st:</strong> Neural fields: MLP → hash grid → explicit grid</div>
           <div class="container">
             <div class="title"><a href="https://nvlabs.github.io/instant-ngp/">Instant Neural Graphics Primitives with a Multiresolution Hash Encoding</a></div>
             <div class="authors">Lead &middot; ACM TOG / SIGGRAPH 2022</div>
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Fridovich-Keil_Plenoxels_Radiance_Fields_Without_Neural_Networks_CVPR_2022_paper.html">Plenoxels: Radiance Fields without Neural Networks</a></div>
             <div class="authors">Skim &middot; CVPR 2022 Oral</div>
           </div>
-          <div class="slot"><strong>B:</strong> Minimal-inductive-bias view synthesis</div>
+          <div class="slot"><strong>Sep 3rd:</strong> Minimal-inductive-bias view synthesis</div>
           <div class="container">
             <div class="title"><a href="https://haian-jin.github.io/projects/LVSM/">LVSM: A Large View Synthesis Model with Minimal 3D Inductive Bias</a></div>
             <div class="authors">Lead &middot; ICLR 2025 Oral / CVPR 2026 Highlight</div>
           </div>
-          <div class="slot"><strong>B:</strong> Learned rendering with global illumination</div>
+          <div class="slot"><strong>Sep 3rd:</strong> Learned rendering with global illumination</div>
           <div class="container">
             <div class="title"><a href="https://microsoft.github.io/renderformer/">RenderFormer: Transformer-based Neural Rendering of Triangle Meshes with Global Illumination</a></div>
             <div class="authors">Lead &middot; SIGGRAPH Asia 2025</div>
@@ -73,18 +72,17 @@
       <tr>
         <td>
           <div class="topic">Week 3 &middot; Implicit, Explicit &amp; Structured Geometry</div>
-          <div class="weekdates">A: Tue Sep 8 &nbsp;&middot;&nbsp; B: Thu Sep 10</div>
-          <div class="slot"><strong>A:</strong> SDFs and principled surface rendering</div>
+          <div class="slot"><strong>Sep 8th:</strong> SDFs and principled surface rendering</div>
           <div class="container">
             <div class="title"><a href="https://proceedings.neurips.cc/paper/2021/hash/25e2a30f44898b9f3e978b1786dcd85c-Abstract.html">Volume Rendering of Neural Implicit Surfaces</a></div>
             <div class="authors">Lead &middot; NeurIPS 2021 (VolSDF)</div>
           </div>
-          <div class="slot"><strong>A:</strong> Structured geometry</div>
+          <div class="slot"><strong>Sep 8th:</strong> Structured geometry</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2604.24994">Unifying Real-Time Differentiable Ray Tracing and Rasterization</a></div>
             <div class="authors">Lead &middot; arXiv 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Explicit geometry</div>
+          <div class="slot"><strong>Sep 10th:</strong> Explicit geometry</div>
           <div class="container">
             <div class="title"><a href="https://fan-treasure.github.io/ExMesh_page.github.io/">Explicit mesh optimization with topology adaptation</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -101,20 +99,19 @@
       <tr>
         <td>
           <div class="topic">Week 4 &middot; Visual Geometry Foundation Models</div>
-          <div class="weekdates">A: Tue Sep 15 &nbsp;&middot;&nbsp; B: Thu Sep 17</div>
-          <div class="slot"><strong>A:</strong> Point maps → general visual geometry transformer</div>
+          <div class="slot"><strong>Sep 15th:</strong> Point maps → general visual geometry transformer</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VGGT_Visual_Geometry_Grounded_Transformer_CVPR_2025_paper.html">VGGT: Visual Geometry Grounded Transformer</a></div>
             <div class="authors">Lead &middot; CVPR 2025</div>
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wang_DUSt3R_Geometric_3D_Vision_Made_Easy_CVPR_2024_paper.html">DUSt3R: Geometric 3D Vision Made Easy</a></div>
             <div class="authors">Skim &middot; CVPR 2024</div>
           </div>
-          <div class="slot"><strong>A:</strong> Simple targets at foundation-model scale</div>
+          <div class="slot"><strong>Sep 15th:</strong> Simple targets at foundation-model scale</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2511.10647">Depth Anything 3: Recovering the Visual Space from Any Views</a></div>
             <div class="authors">Lead &middot; ICLR 2026 Oral</div>
           </div>
-          <div class="slot"><strong>B:</strong> Universal conditional metric reconstruction</div>
+          <div class="slot"><strong>Sep 17th:</strong> Universal conditional metric reconstruction</div>
           <div class="container">
             <div class="title"><a href="https://openreview.net/forum?id=tcmc0jpDgU">MapAnything: Universal Feed-Forward Metric 3D Reconstruction</a></div>
             <div class="authors">Lead &middot; 3DV 2026</div>
@@ -129,8 +126,7 @@
       <tr>
         <td>
           <div class="topic">Week 5 &middot; Stateful, Streaming &amp; Hybrid Reconstruction</div>
-          <div class="weekdates">A: Tue Sep 22 &nbsp;&middot;&nbsp; B: Thu Sep 24</div>
-          <div class="slot"><strong>A:</strong> Scene memory in test-time-trained weights</div>
+          <div class="slot"><strong>Sep 22nd:</strong> Scene memory in test-time-trained weights</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2603.04385">ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -139,12 +135,12 @@
             <div class="title"><a href="https://cwchenwang.github.io/tttLRM/">tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction</a></div>
             <div class="authors">Skim &middot; CVPR 2026 Highlight</div>
           </div>
-          <div class="slot"><strong>B:</strong> Long-sequence autoregressive visual geometry</div>
+          <div class="slot"><strong>Sep 24th:</strong> Long-sequence autoregressive visual geometry</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2602.13172">LongStream: Long-Sequence Streaming Autoregressive Visual Geometry</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Learned priors inside global SfM</div>
+          <div class="slot"><strong>Sep 24th:</strong> Learned priors inside global SfM</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2605.26103">Global Structure-from-Motion Meets Feedforward Reconstruction</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -157,8 +153,7 @@
       <tr>
         <td>
           <div class="topic">Week 6 &middot; Neural SLAM &amp; Robot Mapping</div>
-          <div class="weekdates">A: Tue Sep 29 &nbsp;&middot;&nbsp; B: Thu Oct 1</div>
-          <div class="slot"><strong>A:</strong> Neural-field SLAM → foundation-prior SLAM</div>
+          <div class="slot"><strong>Sep 29th:</strong> Neural-field SLAM → foundation-prior SLAM</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2025/html/Murai_MASt3R-SLAM_Real-Time_Dense_SLAM_with_3D_Reconstruction_Priors_CVPR_2025_paper.html">MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors</a></div>
             <div class="authors">Lead &middot; CVPR 2025</div>
@@ -167,12 +162,12 @@
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Zhu_NICE-SLAM_Neural_Implicit_Scalable_Encoding_for_SLAM_CVPR_2022_paper.html">NICE-SLAM: Neural Implicit Scalable Encoding for SLAM</a></div>
             <div class="authors">Skim &middot; CVPR 2022</div>
           </div>
-          <div class="slot"><strong>B:</strong> Globally consistent online foundation-model reconstruction</div>
+          <div class="slot"><strong>Oct 1st:</strong> Globally consistent online foundation-model reconstruction</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_TALO_Pushing_3D_Vision_Foundation_Models_Towards_Globally_Consistent_Online_CVPR_2026_paper.html">TALO: Pushing 3D Vision Foundation Models Towards Globally Consistent Online Reconstruction</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Dynamic SLAM with a general 3D prior</div>
+          <div class="slot"><strong>Oct 1st:</strong> Dynamic SLAM with a general 3D prior</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_Dynamic_Visual_SLAM_using_a_General_3D_Prior_CVPR_2026_paper.html">Dynamic Visual SLAM using a General 3D Prior</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -185,20 +180,19 @@
       <tr>
         <td>
           <div class="topic">Week 7 &middot; Gaussian Splatting — One Focused Week</div>
-          <div class="weekdates">A: Tue Oct 6 &nbsp;&middot;&nbsp; B: Thu Oct 8</div>
-          <div class="slot"><strong>A:</strong> Original 3DGS → principled artifact correction</div>
+          <div class="slot"><strong>Oct 6th:</strong> Original 3DGS → principled artifact correction</div>
           <div class="container">
             <div class="title"><a href="https://derthomy.github.io/AAA-Gaussians/">AAA-Gaussians: Anti-Aliased and Artifact-Free 3D Gaussian Rendering</a></div>
             <div class="authors">Lead &middot; ICCV 2025 Highlight</div>
             <div class="title"><a href="https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a></div>
             <div class="authors">Skim &middot; ACM TOG / SIGGRAPH 2023</div>
           </div>
-          <div class="slot"><strong>B:</strong> Stochastic opaque-point rendering</div>
+          <div class="slot"><strong>Oct 8th:</strong> Stochastic opaque-point rendering</div>
           <div class="container">
             <div class="title"><a href="https://jorisar.nl/gaussian_point_splatting/">Gaussian Point Splatting</a></div>
             <div class="authors">Lead &middot; ACM TOG / SIGGRAPH 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Out-of-core LoD for ultra-large scenes</div>
+          <div class="slot"><strong>Oct 8th:</strong> Out-of-core LoD for ultra-large scenes</div>
           <div class="container">
             <div class="title"><a href="https://felixwindisch.github.io/ALoDOfGaussians/">A LoD of Gaussians: Out-of-Core Training and Rendering for Seamless Ultra-Large Scene Reconstruction</a></div>
             <div class="authors">Lead &middot; SIGGRAPH 2026</div>
@@ -211,20 +205,19 @@
       <tr>
         <td>
           <div class="topic">Week 8 &middot; Inverse Rendering &amp; Relighting</div>
-          <div class="weekdates">A: Tue Oct 13 &nbsp;&middot;&nbsp; B: Thu Oct 15</div>
-          <div class="slot"><strong>A:</strong> Factorized reflectance versus structured view dependence</div>
+          <div class="slot"><strong>Oct 13th:</strong> Factorized reflectance versus structured view dependence</div>
           <div class="container">
             <div class="title"><a href="https://xiuming.info/projects/nerfactor/">NeRFactor: Neural Factorization of Shape and Reflectance Under an Unknown Illumination</a></div>
             <div class="authors">Lead &middot; ACM TOG / SIGGRAPH Asia 2021</div>
             <div class="title"><a href="https://dorverbin.github.io/refnerf/">Ref-NeRF: Structured View-Dependent Appearance for Neural Radiance Fields</a></div>
             <div class="authors">Skim &middot; CVPR 2022 Oral</div>
           </div>
-          <div class="slot"><strong>A:</strong> Inverse rendering by propagating light</div>
+          <div class="slot"><strong>Oct 13th:</strong> Inverse rendering by propagating light</div>
           <div class="container">
             <div class="title"><a href="https://anaghmalik.com/InvProp/">Neural Inverse Rendering from Propagating Light</a></div>
             <div class="authors">Lead &middot; CVPR 2025 Best Student Paper</div>
           </div>
-          <div class="slot"><strong>B:</strong> Feed-forward multiview inverse rendering</div>
+          <div class="slot"><strong>Oct 15th:</strong> Feed-forward multiview inverse rendering</div>
           <div class="container">
             <div class="title"><a href="https://maddog241.github.io/mvinverse-page/">MVInverse: Feed-forward Multiview Inverse Rendering in Seconds</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -237,8 +230,7 @@
       <tr>
         <td>
           <div class="topic">Week 9 &middot; Native &amp; Generalist 3D Generation</div>
-          <div class="weekdates">A: Tue Oct 20 &nbsp;&middot;&nbsp; B: Thu Oct 22</div>
-          <div class="slot"><strong>A:</strong> Native compact structured 3D latents</div>
+          <div class="slot"><strong>Oct 20th:</strong> Native compact structured 3D latents</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xiang_Native_and_Compact_Structured_Latents_for_3D_Generation_CVPR_2026_paper.html">Native and Compact Structured Latents for 3D Generation</a></div>
             <div class="authors">Lead &middot; CVPR 2026 Best Student Paper</div>
@@ -247,14 +239,14 @@
             <div class="title"><a href="https://microsoft.github.io/TRELLIS.2/">TRELLIS2</a></div>
             <div class="authors">Skim &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Open-world image-to-3D scaling</div>
+          <div class="slot"><strong>Oct 22nd:</strong> Open-world image-to-3D scaling</div>
           <div class="container">
             <div class="title"><a href="https://ai.meta.com/research/sam3d/">SAM 3D: 3Dfy Anything in Images</a></div>
             <div class="authors">Lead &middot; CVPR 2026 Honorable Mention</div>
             <div class="title"><a href="https://arxiv.org/abs/2501.12202">Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation</a></div>
             <div class="authors">Skim &middot; arXiv 2025</div>
           </div>
-          <div class="slot"><strong>B:</strong> Generation meets feed-forward reconstruction</div>
+          <div class="slot"><strong>Oct 22nd:</strong> Generation meets feed-forward reconstruction</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Gen3R_3D_Scene_Generation_Meets_Feed-Forward_Reconstruction_CVPR_2026_paper.html">Gen3R: 3D Scene Generation Meets Feed-Forward Reconstruction</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -267,22 +259,21 @@
       <tr>
         <td>
           <div class="topic">Week 10 &middot; Dynamic &amp; 4D Representations</div>
-          <div class="weekdates">A: Tue Oct 27 &nbsp;&middot;&nbsp; B: Thu Oct 29</div>
-          <div class="slot"><strong>A:</strong> Dynamic neural fields → feed-forward 4D reconstruction</div>
+          <div class="slot"><strong>Oct 27th:</strong> Dynamic neural fields → feed-forward 4D reconstruction</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Efficiently_Reconstructing_Dynamic_Scenes_One_D4RT_at_a_Time_CVPR_2026_paper.html">Efficiently Reconstructing Dynamic Scenes One D4RT at a Time</a></div>
             <div class="authors">Lead &middot; CVPR 2026 Best Paper</div>
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Sucar_V-DPM_4D_Video_Reconstruction_with_Dynamic_Point_Maps_CVPR_2026_paper.html">V-DPM: 4D Video Reconstruction with Dynamic Point Maps</a></div>
             <div class="authors">Skim &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Deformable and topologically varying neural fields</div>
+          <div class="slot"><strong>Oct 29th:</strong> Deformable and topologically varying neural fields</div>
           <div class="container">
             <div class="title"><a href="https://hypernerf.github.io/">HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields</a></div>
             <div class="authors">Lead &middot; ACM TOG / SIGGRAPH Asia 2021</div>
             <div class="title"><a href="https://nerfies.github.io/">Nerfies: Deformable Neural Radiance Fields</a></div>
             <div class="authors">Skim &middot; ICCV 2021</div>
           </div>
-          <div class="slot"><strong>B:</strong> Unified metric 4D reconstruction</div>
+          <div class="slot"><strong>Oct 29th:</strong> Unified metric 4D reconstruction</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Karhade_Any4D_Unified_Feed-Forward_Metric_4D_Reconstruction_CVPR_2026_paper.html">Any4D: Unified Feed-Forward Metric 4D Reconstruction</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -295,22 +286,24 @@
       <tr>
         <td>
           <div class="topic">Week 11 &middot; Neural Physics</div>
-          <div class="weekdates">A: Tue Nov 3 &nbsp;&middot;&nbsp; B: Thu Nov 5</div>
-          <div class="slot"><strong>A:</strong> Real2Sim</div>
+          <div class="slot"><strong>Nov 3rd:</strong> Real2Sim</div>
+          <div class="container">
+            <div class="title"><a href="https://arxiv.org/abs/2511.04665">Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions</a></div>
+            <div class="authors">Lead &middot; arXiv 2025</div>
+          </div>
+          <div class="slot"><strong>Nov 3rd:</strong> System identification</div>
           <div class="container">
             <div class="title"><a href="https://jianghanxiao.github.io/phystwin-web/">Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos</a></div>
             <div class="authors">Lead &middot; ICCV 2025 (PhysTwin)</div>
-            <div class="title"><a href="https://arxiv.org/abs/2511.04665">Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation of Soft-Body Interactions</a></div>
-            <div class="authors">Skim &middot; arXiv 2025</div>
           </div>
-          <div class="slot"><strong>B:</strong> Object interactions</div>
+          <div class="slot"><strong>Nov 5th:</strong> Object interactions</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2605.09196">RigidFormer: Learning Rigid Dynamics using Transformers</a></div>
             <div class="authors">Lead &middot; arXiv 2026</div>
             <div class="title"><a href="https://arxiv.org/abs/2509.20358">PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video Generation</a></div>
             <div class="authors">Skim &middot; arXiv 2025</div>
           </div>
-          <div class="slot"><strong>B:</strong> Video2Interactions</div>
+          <div class="slot"><strong>Nov 5th:</strong> Video2Interactions</div>
           <div class="container">
             <div class="title"><a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-policy/">Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning</a></div>
             <div class="authors">Lead &middot; ICLR 2026</div>
@@ -323,20 +316,19 @@
       <tr>
         <td>
           <div class="topic">Week 12 &middot; Active Perception &amp; Long-Horizon Mapping</div>
-          <div class="weekdates">A: Tue Nov 17 &nbsp;&middot;&nbsp; B: Thu Nov 19</div>
-          <div class="slot"><strong>A:</strong> Uncertainty and coverage for next-best view</div>
+          <div class="slot"><strong>Nov 17th:</strong> Uncertainty and coverage for next-best view</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Chen_GenNBV_Generalizable_Next-Best-View_Policy_for_Active_3D_Reconstruction_CVPR_2024_paper.html">GenNBV: Generalizable Next-Best-View Policy for Active 3D Reconstruction</a></div>
             <div class="authors">Lead &middot; CVPR 2024</div>
             <div class="title"><a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930225.pdf">ActiveNeRF: Learning Where to See with Uncertainty Estimation</a></div>
             <div class="authors">Skim &middot; ECCV 2022</div>
           </div>
-          <div class="slot"><strong>B:</strong> Feed-forward geometry plus VLM-guided exploration</div>
+          <div class="slot"><strong>Nov 19th:</strong> Feed-forward geometry plus VLM-guided exploration</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xu_AREA3D_Active_Reconstruction_Agent_with_Unified_Feed-Forward_3D_Perception_and_CVPR_2026_paper.html">AREA3D: Active Reconstruction Agent with Unified Feed-Forward 3D Perception and Vision-Language Guidance</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Imagined scene state for long-term active mapping</div>
+          <div class="slot"><strong>Nov 19th:</strong> Imagined scene state for long-term active mapping</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Li_MAGICIAN_Efficient_Long-Term_Planning_with_Imagined_Gaussians_for_Active_Mapping_CVPR_2026_paper.html">MAGICIAN: Efficient Long-Term Planning with Imagined Gaussians for Active Mapping</a></div>
             <div class="authors">Lead &middot; CVPR 2026 Oral</div>
@@ -349,27 +341,26 @@
       <tr>
         <td>
           <div class="topic">Week 13 &middot; Simulation-Ready Assets &amp; Embodied Worlds</div>
-          <div class="weekdates">A: Tue Nov 24</div>
-          <div class="slot"><strong>A:</strong> Simulation-ready object assets</div>
+          <div class="slot"><strong>Nov 24th:</strong> Simulation-ready object assets</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/He_SPARK_Sim-ready_Part-level_Articulated_Reconstruction_with_VLM_Knowledge_CVPR_2026_paper.html">SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge</a></div>
             <div class="authors">Lead &middot; CVPR 2026 Oral</div>
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Cao_PhysX-Anything_Simulation-Ready_Physical_3D_Assets_from_Single_Image_CVPR_2026_paper.html">PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image</a></div>
             <div class="authors">Skim &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>A:</strong> Physical 3D/4D simulation</div>
+          <div class="slot"><strong>Nov 24th:</strong> Physical 3D/4D simulation</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Perceptual_3D_Simulation_With_Physical_World_Modeling_CVPR_2026_paper.html">Perceptual 3D Simulation With Physical World Modeling</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhan_PerpetualWonder_Long-horizon_Action-conditioned_4D_Scene_Generation_CVPR_2026_paper.html">PerpetualWonder: Long-Horizon Action-Conditioned 4D Scene Generation</a></div>
             <div class="authors">Skim &middot; CVPR 2026 Highlight</div>
           </div>
-          <div class="slot"><strong>B:</strong> Simulation-ready scenes</div>
+          <div class="slot"><strong>Date TBD:</strong> Simulation-ready scenes</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Geng_NeuROK_Generative_4D_Neural_Object_Kinematics_CVPR_2026_paper.html">NeuROK: Generative 4D Neural Object Kinematics</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Agentic and traversable world generation</div>
+          <div class="slot"><strong>Date TBD:</strong> Agentic and traversable world generation</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xia_SAGE_Scalable_Agentic_3D_Scene_Generation_for_Embodied_AI_CVPR_2026_paper.html">SAGE: Scalable Agentic 3D Scene Generation for Embodied AI</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
@@ -384,23 +375,22 @@
       <tr>
         <td>
           <div class="topic">Week 14 &middot; 3D-Consistent World Models for Interaction</div>
-          <div class="weekdates">A: Tue Dec 1 &nbsp;&middot;&nbsp; B: Thu Dec 3</div>
-          <div class="slot"><strong>A:</strong> Point-flow 3D world model</div>
+          <div class="slot"><strong>Dec 1st:</strong> Point-flow 3D world model</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2601.03782">PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation</a></div>
             <div class="authors">Lead &middot; arXiv 2026 · unreviewed</div>
           </div>
-          <div class="slot"><strong>A:</strong> Cross-view 3D-consistent world foundation model</div>
+          <div class="slot"><strong>Dec 1st:</strong> Cross-view 3D-consistent world foundation model</div>
           <div class="container">
             <div class="title"><a href="https://arxiv.org/abs/2606.18375">PAIWorld: A 3D-Consistent World Foundation Model for Robotic Manipulation</a></div>
             <div class="authors">Lead &middot; arXiv 2026 · unreviewed</div>
           </div>
-          <div class="slot"><strong>A:</strong> Scene-conditioned dexterous world model</div>
+          <div class="slot"><strong>Dec 1st:</strong> Scene-conditioned dexterous world model</div>
           <div class="container">
             <div class="title"><a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kim_Dexterous_World_Models_CVPR_2026_paper.html">Dexterous World Models</a></div>
             <div class="authors">Lead &middot; CVPR 2026</div>
           </div>
-          <div class="slot"><strong>B:</strong> Favorite paper — student choice</div>
+          <div class="slot"><strong>Dec 3rd:</strong> Favorite paper — student choice</div>
           <div class="container">
             <div class="authors">Presenter selects a paper from the semester; no assigned reading.</div>
           </div>
