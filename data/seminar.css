@@ -87,6 +87,17 @@ table.topics .person .label {
     font-style: italic;
 }
 
+table.topics .roundbanner {
+    background-color: #011F5B;   /* Penn Blue */
+    color: #fff;
+    font-size: 115%;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em;
+}
+
 table.topics .slot {
     margin-top: 0.9em;
     margin-bottom: 0.15em;
