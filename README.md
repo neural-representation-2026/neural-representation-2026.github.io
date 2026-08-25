@@ -15,7 +15,7 @@ Search the four HTML files for `TBD` and update:
 - presentation-slide folder
 - presentation assignments and dates
 
-The 42-slot reading list is already rendered in `topics.html`. Purple boxes denote bundles. The editable workbook, including backup papers, is in `files/CIS7000_2026_Paper_Signup.xlsx`.
+The reading list is rendered in `topics.html`, generated from the Google sign-up sheet linked on the Organization page.
 
 ## Upload to GitHub Pages
 
