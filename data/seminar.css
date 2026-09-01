@@ -87,6 +87,12 @@ table.topics .person .label {
     font-style: italic;
 }
 
+table.topics .label.tbd {
+    color: #011F5B;              /* Penn Blue: an open slot should stand out */
+    font-weight: bold;
+    font-style: normal;
+}
+
 table.topics .roundbanner {
     background-color: #011F5B;   /* Penn Blue */
     color: #fff;
