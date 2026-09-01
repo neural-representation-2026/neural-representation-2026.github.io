@@ -23,8 +23,8 @@ window.COURSE_CONFIG = {
   },
   links: {
     signUp: "https://docs.google.com/spreadsheets/d/1qDT8KQOgKzVdRVaSnWr1UsH5S1WGbp75lvX92QaM124/edit",
-    questionForm: "",
-    slidesFolder: "",
+    questionForm: "https://docs.google.com/forms/d/e/1FAIpQLSeVtMP-_PzgtJ9ZthAisBP5MZZ5JqBDrUQ4qqNkusmqVrnquQ/viewform",
+    slidesFolder: "https://drive.google.com/drive/folders/1Y0bF83p6U_SGPmvfi7zcYlAvqaUa6Hp6",
     canvas: ""
   },
   researchCutoff: "August 21, 2026",
